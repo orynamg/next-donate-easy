@@ -10,7 +10,7 @@ const CharityCards = () => {
                     <h1 className="text-3xl">Grossing Charities</h1>
                     <h3 className=" text-xl">A selecion of charities you can choose from</h3>
                 </div>
-                <div className="grid grid-cols-3 gap-y-10 h-screen place-items-center mx-auto w-10/12 mb-16">
+                <div className="grid grid-cols-3 gap-y-10 h-screen place-items-center mx-auto w-10/12 mb-20">
 
                     <div className="flip-card w-96 bg-neutral text-center ">
                         <div className="flip-card-inner shadow-xl relative">

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Navbar from '../components/navbar'
 import Showcase from '../components/showcase'
 import CharityCards from '../components/charity-cards'
+import Footer from '../components/footer'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,8 @@ const Home: NextPage = () => {
       <Showcase></Showcase>
 
       <CharityCards></CharityCards>
+
+      <Footer></Footer>
 
 
     </div>
