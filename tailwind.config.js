@@ -8,16 +8,26 @@ module.exports = {
   },
   daisyui: {
     themes: [
+      "light", 
+      "dark",
       {
         mytheme: {
-          "primary": "#e879f9",
-          "secondary": "#EF9FBC",
-          "accent": "#c084fc",
-          "neutral": "#291334",
-          "base-100": "#e7e5e4",
+          "primary": "#5ecdf1",
+          
+          "secondary": "#d1d5db",
+                   
+          "accent": "#2dd4bf",
+                   
+          "neutral": "#111827",
+                   
+          "base-100": "#1f2937",
+                   
           "info": "#3ABFF8",
+                   
           "success": "#fae8ff",
-          "warning": "#f43f5e",
+                   
+          "warning": "#7c3aed",
+                   
           "error": "#38bdf8",
 
           "--rounded-box": "1rem", // border radius rounded-box utility class, used in card and other large boxes

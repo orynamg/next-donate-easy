@@ -2,12 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
     font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
 }
 
-[data-theme="mytheme"] .btn {
-    transition: all 1s;
+.showcase {
+    background: linear-gradient(to top, rgb(12, 16, 22, 0.9) 10%, rgba(73, 72, 72, 0.4) 80%),
+        url(/img/volunteering.jpeg) no-repeat top center/cover;
+    background-position: 10% 0%;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 43vh;
+    height: 47vh;
+    perspective: 1000px;
+    border-radius: 20rem;
+    
+    
+}
+
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 1.1s;
+    transform-style: preserve-3d;
+
 
 }
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    background-color: rgba(93, 202, 238, 0.774);
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5rem;
+
+}
+
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+    
+
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
