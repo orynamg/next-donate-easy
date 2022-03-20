@@ -9,8 +9,6 @@ const About = () => {
         <Navbar></Navbar>
 
         <AboutContent></AboutContent>
-
-        
         
         <Footer></Footer>
         

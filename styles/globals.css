@@ -7,6 +7,10 @@ body {
     font-weight: 300;
 }
 
+.btn {
+    transition: all 0.5s;
+}
+
 .showcase {
     background: linear-gradient(to top, rgb(12, 16, 22, 0.9) 10%, rgba(73, 72, 72, 0.4) 80%),
         url(/img/volunteering.jpeg) no-repeat top center/cover;
@@ -63,4 +67,14 @@ body {
     background: linear-gradient(to top, rgba(37, 37, 37, 0.9) 10%, rgba(149, 143, 115, 0.4) 80%),
         url(/img/countryside2.jpeg);
     background-position: 0 -8rem;
+}
+
+.contact-content-img {
+    background: linear-gradient(to top, rgba(37, 37, 37, 0.9) 10%, rgba(149, 143, 115, 0.4) 80%),
+    url(/img/volunteer.jpeg);
+    background-position: 0 -24rem;
+}
+
+.input-group {
+    width: auto;
 }
