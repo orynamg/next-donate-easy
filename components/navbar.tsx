@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Navbar = () => {
     return (
         <nav className="navbar fixed z-10 bg-base-100 bg-opacity-90">
-            <div className="navbar h-20 px-5 bg-base-100 shadow-xl rounded-box">
+            <div className="navbar h-20 px-8 bg-base-100 shadow-xl rounded-box">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -18,7 +18,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center">
-                    <a className=""><img className="logo" src="/img/Donate Easy.png" alt="" width="350" height="200"/></a>
+                    <Link href="/"><a className=""><img className="logo" src="/img/Donate Easy.png" alt="" width="350" height="200" /></a></Link>
                 </div>
                 <div className="navbar-end">
                     <button className="btn btn-ghost btn-circle">
@@ -30,6 +30,23 @@ const Navbar = () => {
                             <span className="badge badge-xs badge-primary indicator-item"></span>
                         </div>
                     </button>
+                    <div className="dropdown dropdown-end ml-3">
+                        <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                            <div className="w-10 rounded-full">
+                                <img src="https://api.lorem.space/image/face?hash=33791" />
+                            </div>
+                        </label>
+                        <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                            <li>
+                                <a className="justify-between">
+                                    Profile
+                                    <span className="badge">New</span>
+                                </a>
+                            </li>
+                            <li><a>Settings</a></li>
+                            <li><a>Logout</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>

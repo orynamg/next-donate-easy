@@ -17,11 +17,32 @@ body {
     background-position: 10% 0%;
 }
 
+.about-content-img {
+    background: linear-gradient(to top, rgba(37, 37, 37, 0.9) 10%, rgba(149, 143, 115, 0.4) 80%),
+        url(/img/countryside2.jpeg);
+    background-position: 0 -8rem;
+}
+
+.contact-content-img {
+    background: linear-gradient(to top, rgba(37, 37, 37, 0.9) 10%, rgba(149, 143, 115, 0.4) 80%),
+    url(/img/volunteer.jpeg);
+    background-position: 0 -24rem;
+}
+
+.input-group {
+    width: auto;
+}
+
+.drawer-toggle ~ .drawer-side > .drawer-overlay + * {
+    z-index: 1;
+}
+
 
 .flip-card {
     background-color: transparent;
     width: 43vh;
-    height: 47vh;
+    /* height: 47vh; */
+    height: 24rem;
     perspective: 1000px;
     border-radius: 20rem;
     
@@ -63,18 +84,3 @@ body {
     transform: rotateY(180deg);
 }
 
-.about-content-img {
-    background: linear-gradient(to top, rgba(37, 37, 37, 0.9) 10%, rgba(149, 143, 115, 0.4) 80%),
-        url(/img/countryside2.jpeg);
-    background-position: 0 -8rem;
-}
-
-.contact-content-img {
-    background: linear-gradient(to top, rgba(37, 37, 37, 0.9) 10%, rgba(149, 143, 115, 0.4) 80%),
-    url(/img/volunteer.jpeg);
-    background-position: 0 -24rem;
-}
-
-.input-group {
-    width: auto;
-}

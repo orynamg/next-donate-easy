@@ -19,7 +19,7 @@ const CharityCards = () => {
                                     <h2 className="text-center font-normal text-lg">British Heart Foundation</h2>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, itaque.</p>
                                 </div>
-                                <figure><img className="brightness-150 grayscale-[50%] object-cover rounded-b-2xl " src="/img/british-hf.jpeg" alt="" /></figure>
+                                <figure><img className="brightness-150 grayscale-[50%] object-cover rounded-b-2xl w-full h-[15rem]" src="/img/british-hf.jpeg" alt="" /></figure>
                             </div>
                             <div className="flip-card-back rounded-2xl ">
                                     <h3 className="font-normal">What we do</h3>
@@ -35,7 +35,7 @@ const CharityCards = () => {
                                     <h2 className="text-center font-normal text-lg">Shelter</h2>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, itaque.</p>
                                 </div>
-                                <figure><img className="brightness-[85%] grayscale-[50%] object-cover h-[15rem]  rounded-b-2xl" src="/img/shelter.jpeg" alt="" /></figure>
+                                <figure><img className="brightness-[85%] grayscale-[50%] object-cover w-full h-[15rem] rounded-b-2xl" src="/img/shelter.jpeg" alt="" /></figure>
                             </div>
                             <div className="flip-card-back rounded-2xl">
                                     <h3 className="font-normal">What we do</h3>
@@ -51,7 +51,7 @@ const CharityCards = () => {
                                     <h2 className="text-center font-normal text-lg">Cancer Research</h2>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, itaque.</p>
                                 </div>
-                                <figure><img className="brightness-[85%] grayscale-[50%] object-cover h-[15rem]  rounded-b-2xl" src="/img/cancer-research.jpeg" alt="" /></figure>
+                                <figure><img className="brightness-[85%] grayscale-[50%] object-cover w-full h-[15rem] rounded-b-2xl" src="/img/cancer-research.jpeg" alt="" /></figure>
                             </div>
                             <div className="flip-card-back rounded-2xl">
                                     <h3 className="font-normal">What we do</h3>
@@ -67,7 +67,7 @@ const CharityCards = () => {
                                     <h2 className="text-center font-normal text-lg">BBC Children In Need</h2>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, itaque.</p>
                                 </div>
-                                <figure><img className="brightness-[85%] grayscale-[50%] object-cover h-[15rem]  rounded-b-2xl" src="/img/children-in-need.jpeg" alt="" /></figure>
+                                <figure><img className="brightness-[85%] grayscale-[50%] object-cover w-full h-[15rem] rounded-b-2xl" src="/img/children-in-need.jpeg" alt="" /></figure>
                             </div>
                             <div className="flip-card-back rounded-2xl">
                                     <h3 className="font-normal">What we do</h3>
@@ -83,7 +83,7 @@ const CharityCards = () => {
                                     <h2 className="text-center font-normal text-lg">Oxfam</h2>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, itaque.</p>
                                 </div>
-                                <figure><img className="brightness-[90%] grayscale-[50%] object-cover h-[15rem] w-[25rem] rounded-b-2xl" src="/img/Oxfam_2013.jpeg" alt="" /></figure>
+                                <figure><img className="brightness-[90%] grayscale-[50%] object-cover w-full h-[15rem] rounded-b-2xl" src="/img/Oxfam_2013.jpeg" alt="" /></figure>
                             </div>
                             <div className="flip-card-back rounded-2xl">
                                     <h3 className="font-normal">What we do</h3>
@@ -99,7 +99,7 @@ const CharityCards = () => {
                                     <h2 className="text-center font-normal text-lg">Alzheimer's Research UK</h2>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, itaque.</p>
                                 </div>
-                                <figure><img className="brightness-[90%] grayscale-[50%] object-cover h-[15rem]  rounded-b-2xl" src="/img/alzheimers_research_uk_logo.png" alt="" /></figure>
+                                <figure><img className="brightness-[90%] grayscale-[50%] object-cover w-full h-[15rem] rounded-b-2xl" src="/img/alzheimers_research_uk_logo.png" alt="" /></figure>
                             </div>
                             <div className="flip-card-back rounded-2xl">
                                     <h3 className="font-normal">What we do</h3>

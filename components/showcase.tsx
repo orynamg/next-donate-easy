@@ -1,8 +1,22 @@
 import { faHeart, faSearch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import router, { Router } from 'next/router';
+import React, { useState } from "react";
 
 const Showcase = () => {
-    return (
+
+
+    const [enteredText, setEnteredText] = useState("");
+
+    const keyDownHandler = (event: React.KeyboardEvent<HTMLInputElement>) => {
+        if (event.code === "Enter") {
+            // alert(`You have typed "${enteredText}"`);
+            router.push('/near-me');
+    
+        }
+    };
+    
+    return ( 
         <>
 
             <div className="showcase mb-14 h-screen opacity-90 shadow-md grid grid-cols-2">
@@ -28,7 +42,7 @@ const Showcase = () => {
                     </div>
 
                     <div className="search-bar mt-2 p-4 w-3/5 bg-white rounded-full flex justify-between items-center">
-                        <input type="text" placeholder="Enter Postcode" className="border-none outline-none pl-4 text-lg hover:outline-none"/>
+                        <input onKeyDown={keyDownHandler} value={enteredText} onChange={(e) => setEnteredText(e.target.value)} type="text" placeholder="Enter Postcode" className="border-none outline-none pl-4 text-lg hover:outline-none"/>
                         <FontAwesomeIcon icon={faSearch} className="mr-3" />
                     </div>
                 </div>
